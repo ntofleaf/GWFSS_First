@@ -1,0 +1,47 @@
+# Ignore experiment directories (e.g., logs, checkpoints)
+/exp/
+
+# Ignore pretrained models
+/pretrained/
+
+# Common Python/PyTorch ignore patterns (optional but recommended)
+__pycache__/
+*.py[cod]
+*.log
+*.pth.tar
+*.pth
+*.ckpt
+*.pt
+*.bin
+*.swp
+*.swo
+.DS_Store
+*.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Lightning specific (if using PyTorch Lightning)
+/lightning_logs/
+/tensorboard_logs/
+/checkpoints/
+/hparams.yaml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
